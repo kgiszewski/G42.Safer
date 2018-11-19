@@ -28,8 +28,9 @@ That may not be an amazing feat of coding but typically you have a service retur
 The next extension method will look through an object and sanitize output:
 
 ```
+var someObject = _someService.GetStuff();
 ...
-return Ok(someObject.ToSaferObject();
+return Ok(someObject.ToSaferObject());
 
 ```
 
