@@ -8,7 +8,7 @@ WebApi does not protect automatically for XSS, this library is an attempt to mak
 
 When it comes to XSS protection, two thoughts should come to your mind:
 1) Sanitizing input
-2) Encoding sensitive characters on the out-stream.
+2) Encoding sensitive characters on the out-stream
 
 This simple library helps accomplish the latter. I have been working on some Regex data annotations that are not quite ready for prime time.
 
