@@ -2,7 +2,7 @@
 
 ## What is this?
 
-WebApi does not protect automatically for XSS, this library is an attempt to make responses to a consuming client safer. Note that is uses the terminology of `safer` and not `safe`. Please consider this as only one-layer of protection. You should present a malicious user with several layers of defense.
+WebApi does not protect automatically for XSS, this library is an attempt to make responses to a consuming client safer. Note that it uses the terminology of `safer` and not `safe`. Please consider this as only one-layer of protection. You should present a malicious user with several layers of defense.
 
 ## Theory of defense
 
