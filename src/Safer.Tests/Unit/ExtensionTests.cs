@@ -93,6 +93,16 @@ namespace Safer.Tests.Unit
             Assert.That(serializedResult4.Contains(unsafeString));
         }
 
+        [Test]
+        public void Can_Make_String_Safer()
+        {
+            var unsafeString = "<script>alert('hello');</script><a href='#' onClick='javascript:void();'>Foo</a>";
+
+            var saferString = unsafeString.ToSaferString();
+
+            Assert.AreEqual("&lt;script&gt;alert(&#39;hello&#39;);&lt;/script&gt;&lt;a href=&#39;#&#39; onClick=&#39;javascript:void();&#39;&gt;Foo&lt;/a&gt;", saferString);
+        }
+
         public class TestObject
         {
             public Dictionary<int, string> DictionaryTester { get; set; }
