@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safer.Xss", "Safer.Xss\Safer.Xss.csproj", "{5155D220-F2A4-4493-AE30-F6BCE5AD51BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safer.Tests", "Safer.Tests\Safer.Tests.csproj", "{176B36FC-3EC3-4AB0-B92D-0214FB7703F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5155D220-F2A4-4493-AE30-F6BCE5AD51BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5155D220-F2A4-4493-AE30-F6BCE5AD51BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5155D220-F2A4-4493-AE30-F6BCE5AD51BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5155D220-F2A4-4493-AE30-F6BCE5AD51BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176B36FC-3EC3-4AB0-B92D-0214FB7703F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176B36FC-3EC3-4AB0-B92D-0214FB7703F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176B36FC-3EC3-4AB0-B92D-0214FB7703F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176B36FC-3EC3-4AB0-B92D-0214FB7703F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4977853C-9C2E-4BF2-AD4F-F5FFF6BDB1FE}
+	EndGlobalSection
+EndGlobal
