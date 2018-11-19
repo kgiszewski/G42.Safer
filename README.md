@@ -41,3 +41,19 @@ return Ok(someObject.ToSaferObject());
 ## Thoughts
 
 MVC/Razor provide some XSS protections but you won't find them in naked WebApi. Again this is just a layer of defense, please sanitize input as well.
+
+##Future
+
+I want to provide a more semantic collection of data validation attributes for checking `ModelState`. I have several being used in the wild but want to see how they shake out first. 
+
+For example:
+- `[ZipCode]`
+- `[PhoneNumber]`
+- `[Address]`
+- `[ProperNoun]`
+- `[Url]`
+- `[AlphaNumeric]`
+- `[Numbers]`
+- `[EmailAddress]`
+
+Some of these already exist in the common libs but I want to create a more definitive list.
