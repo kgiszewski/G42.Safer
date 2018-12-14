@@ -42,6 +42,9 @@ return Ok(someObject.ToSaferObject());
 
 MVC/Razor provide some XSS protections but you won't find them in naked WebApi. Again this is just a layer of defense, please sanitize input as well.
 
+## Nuget
+https://www.nuget.org/packages/G42.Safer/
+
 ## Future
 
 I want to provide a more semantic collection of data validation attributes for checking `ModelState`. I have several being used in the wild but want to see how they shake out first. 
@@ -57,3 +60,4 @@ For example:
 - `[EmailAddress]`
 
 Some of these already exist in the common libs but I want to create a more definitive list.
+
